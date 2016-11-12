@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 require "dmmyix/engine"
 
 module Dmmyix
-  # Your code goes here...
+  autoload :Image, "dmmyix/image"
 end

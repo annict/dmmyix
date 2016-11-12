@@ -1,28 +1,30 @@
 # Dmmyix
-Short description and motivation.
+
+A dummy of [Imgix](https://www.imgix.com/) for Rails applications.
 
 ## Usage
-How to use my plugin.
+
+Add this routing to your `routes.rb`:
+
+```rb
+Rails.application.routes.draw do
+  mount Dmmyix::Engine, at: "/dmmyix" if Rails.env.development?
+end
+```
 
 ## Installation
+
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'dmmyix'
+```rb
+gem "dmmyix"
 ```
 
 And then execute:
+
 ```bash
 $ bundle
 ```
-
-Or install it yourself as:
-```bash
-$ gem install dmmyix
-```
-
-## Contributing
-Contribution directions go here.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
