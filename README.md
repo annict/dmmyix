@@ -2,6 +2,8 @@
 
 A dummy of [Imgix](https://www.imgix.com/) for Rails applications.
 
+**We no longer use this gem so this repo has been archived.**
+
 ## Usage
 
 Add this routing to your `routes.rb`:
